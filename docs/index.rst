@@ -11,6 +11,7 @@ Welcome to Twisted REST serial exploration's documentation!
    modules
    contributing
    history
+   references
 
 Indices and tables
 ==================
