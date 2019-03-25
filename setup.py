@@ -11,11 +11,17 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', 'twisted']
+requirements = [
+    'Click>=6.0',
+    'flask',
+    'flask-restful',
+    'pyserial',
+    'twisted',
+]
 
-setup_requirements = ['pytest-runner', ]
+setup_requirements = []
 
-test_requirements = ['pytest', ]
+test_requirements = ['pytest', 'pytest-runner',]
 
 setup(
     author="Volker Kempert",
